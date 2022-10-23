@@ -2,7 +2,35 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "commitizen": "^4.2.5",
+    "conventional-changelog-cli": "^2.2.2",
+    "conventional-changelog-custom-config": "^0.3.1",
     "cz-conventional-changelog-feiyun": "git+https://github.com/qiyuhao8/cz-conventional-changelog-feiyun.git#62ef2739c73130c67f8b48b008300d0c9daf5bda",
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "release-it": "^15.5.0"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release": "release-it",
+    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-feiyun",
+      "disableScopeLowerCase": false,
+      "disableSubjectLowerCase": false,
+      "maxHeaderWidth": 100,
+      "maxLineWidth": 100,
+      "defaultType": "",
+      "defaultScope": "",
+      "defaultSubject": "",
+      "defaultBody": ""
+    }
+  },
+  "changelog": {
+    "bugsUrl": "https://redmine.example.com/issues/",
+    "emojis": true,
+    "authorName": true,
+    "authorEmail": true
   }
 }
