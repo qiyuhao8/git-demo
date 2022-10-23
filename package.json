@@ -9,6 +9,10 @@
     "husky": "^8.0.1",
     "release-it": "^15.5.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiyuhao8/git-demo.git"
+  },
   "scripts": {
     "commit": "git-cz",
     "release": "release-it",
@@ -28,7 +32,6 @@
     }
   },
   "changelog": {
-    "bugsUrl": "https://redmine.example.com/issues/",
     "emojis": true,
     "authorName": true,
     "authorEmail": true
