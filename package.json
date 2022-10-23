@@ -1,6 +1,6 @@
 {
   "name": "git-demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
