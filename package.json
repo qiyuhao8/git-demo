@@ -34,6 +34,6 @@
   "changelog": {
     "emojis": true,
     "authorName": true,
-    "authorEmail": true
+    "authorEmail": false
   }
 }
