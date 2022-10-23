@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "cz-conventional-changelog-feiyun": "git+https://github.com/qiyuhao8/cz-conventional-changelog-feiyun.git#62ef2739c73130c67f8b48b008300d0c9daf5bda",
+    "husky": "^8.0.1"
+  }
+}
